@@ -90,13 +90,14 @@ outline:none;
 .navdiv {
     display: block;
     width: 100%;
-    height: 70px;
+    height: 60px;
+    border-bottom:1px solid #ebebeb;
 }
 .navdiv .nav {
     display: block;
     width: 100%;
-    height: 18px;
-    padding: 27px 0 0 0;
+    height: 31px;
+    padding: 11px 0 0 0;
     margin: 0 0 0 168px;
 }
 .navdiv .nav .ul {
@@ -104,19 +105,45 @@ outline:none;
 }
 .navdiv .nav .ul li {
 float:left;
+height: 46px
 }
 .navdiv .nav .ul li a {
     padding: 0 0 0 0;
     display: block;
-    padding: 0px 31px 0 0;
+    padding: 11px;
     font-style: none;
     text-decoration: none;
-    color:black;
+    color: black;
     font-family: arial, sans-serif;
+    font-size: 15px;
+    opacity: .8;
 }
 
 .navdiv .nav .ul div {
     padding: 0 0px 0px 0;
     display: inline-block;
-    margin: 0px 0px 0px 100px;
+    margin: 9px 0px 0px 100px;
+}
+
+.navimg {
+    display: inline-block;
+    width: 19px;
+    position: relative;
+    top: 4px;
+}
+
+.maps {
+    position: relative;
+    top: 4px;
+}
+.maps2 {
+    position: relative;
+    top: -4px;
+}
+.active {
+    border-bottom: 3px solid #1A73E8;
+}
+
+.navdiv .nav .ul li a:active {
+    color: #0006ff;
 }
