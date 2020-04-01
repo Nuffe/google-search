@@ -1,6 +1,6 @@
 .body {
-    background-color: #;
-    
+    background-color: ;
+    font-family: arial,sans-serif;
 }
 
 .div1 .div2 {
@@ -146,4 +146,59 @@ height: 46px
 
 .navdiv .nav .ul li a:active {
     color: #0006ff;
+}
+
+.divresults { 
+    display: block;
+    height: 45px;
+    margin: 0px 0 0 169px;
+}
+
+.results {
+    display: block;
+    position: relative;
+    top: 15px;  
+    font-size: 16px;
+    color: #6f6b6b;
+
+}
+.layout {
+    margin: 0 0 0 186px;
+    width: 625px;
+}
+.border {
+    display: block;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    height: 200px;
+    width: 660px;
+    position: relative;
+    right: 16px;
+}
+.divp1 {
+    width: 645px;
+}
+.text1 {
+    line-height: 1.375;
+padding: 20px 0 0 22px;
+}    
+.divp2 {
+    position: relative;
+    left: 20px;
+    top: 28px;
+    padding: 0px 0px 0 0px;
+}
+.text2 {
+}
+.link {
+
+}
+.link1 {
+    padding: 0 0 0 0;
+    position: relative;
+    bottom: 6px;
+}
+
+strong {
+    font-weight: bold;
 }
