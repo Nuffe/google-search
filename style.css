@@ -180,7 +180,8 @@ height: 46px
 }
 .text1 {
     line-height: 1.375;
-padding: 20px 0 0 22px;
+    padding: 20px 0 0 22px;
+    font-size: 16px;
 }    
 .divp2 {
     position: relative;
@@ -197,8 +198,32 @@ padding: 20px 0 0 22px;
     padding: 0 0 0 0;
     position: relative;
     bottom: 6px;
+    font-size:20px;
 }
 
 strong {
     font-weight: bold;
+}
+
+.div3 {
+    height: 128px;
+}
+.div3-1 {    
+    padding: 24px 0 0 0;
+}
+.divlink2 {
+font-size: 20px;
+padding: 0px 0px 10px 0;
+}
+.link2{
+    text-decoration: none;
+}
+.text3 {
+    line-height: 1.58;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #3C4043;
+}
+.p2 {
+
 }
