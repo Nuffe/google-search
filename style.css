@@ -2,6 +2,12 @@
     background-color: ;
     font-family: arial,sans-serif;
 }
+.link2:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
 
 .div1 .div2 {
 background-color: white;
@@ -149,7 +155,7 @@ height: 46px
 }
 
 .divresults { 
-    display: block;
+    display: flex;
     height: 45px;
     margin: 0px 0 0 169px;
 }
@@ -165,6 +171,8 @@ height: 46px
 .layout {
     margin: 0 0 0 186px;
     width: 625px;
+    display: flex;
+    flex-direction: column;
 }
 .border {
     display: block;
@@ -206,10 +214,10 @@ strong {
 }
 
 .div3 {
-    height: 128px;
-    height: 128px;
-    margin: 0 0px 6px -1px;
-}
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0px 0 0
 }
 .div3-1 {    
     padding: 24px 0 0 0;
@@ -234,7 +242,52 @@ padding: 0px 0px 10px 0;
 .text4{
     font-size: 15px;
     margin: 9px 0px 5px 0px;
+    color: black;
 }
 .point{
     width:20px;
+}
+.text4:hover{
+    text-decoration: none;
+ }
+
+
+ .videodiv{
+    display: flex;
+    height: 277px;
+    margin: 35px 0 17px 0;
+ }
+ .videoall{
+    padding: 0 16px 0 0;
+ }
+ .videodiv1 {
+
+ }
+ .videodiv2 {
+     
+}
+.videodiv3 {
+     
+}
+.videoall2 {
+    height: 274px;;
+    border: 2px solid lightgray;
+    border-radius: 5px;  }
+.videolink {
+    display: block;
+    position: relative;
+    line-height: 19px;
+    top: 10px;
+    left: 12px;
+    height: 100px;
+    width: 170px;
+}
+.videop {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    line-height: 19px;
+    color: black;
+    left: 16px;
+    opacity: 0.6;
 }
