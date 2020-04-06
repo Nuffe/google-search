@@ -84,7 +84,6 @@ outline:none;
     width: 690px;
     height: 50px;
     border-radius: 35px;
-    top: 20px;
     margin: 0px 0px 0 35px;
    
 }
@@ -271,7 +270,7 @@ padding: 0px 0px 10px 0;
 }
 .videoall2 {
     height: 274px;;
-    border: 2px solid lightgray;
+    border: 2px solid #f3f1f1;
     border-radius: 5px;  }
 .videolink {
     display: block;
@@ -290,4 +289,41 @@ padding: 0px 0px 10px 0;
     color: black;
     left: 16px;
     opacity: 0.6;
+}
+
+.divq {
+height: 315px;
+width: 645px;
+}
+.divq2{
+    border: 1px solid #e5e5e5;
+    height: inherit;
+    border-radius: 5px;
+}
+.ulq{
+
+}
+.qlist{
+    border-bottom: 1px solid #e5e5e5;
+    height: 44px;
+
+}
+
+.divp3{
+    border-bottom:1px solid #e5e5e5;
+    height: 44px;
+}
+.lip{
+    margin: 0px 0px 0px 0px;
+    padding: 11px 0 0 33px;
+    font-size: 20px;
+}
+.listbottom{
+    margin: 0px 0px 0px 0px;
+    padding: 14px 0 0 33px;
+}
+.listp{
+    margin: 0px 0px 0px 0px;
+    padding: 14px 0 0 33px;
+    ;
 }
