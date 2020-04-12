@@ -64,7 +64,7 @@ margin: 15px 0 0 0;
     width: 21px;
     height: 35px;
     position: relative;
-    border-right: 1px solid;
+    border-right: 1px solid lightgray;
     right: 21px;
     top: 7px;
 }
