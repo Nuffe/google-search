@@ -219,7 +219,7 @@ strong {
     padding: 0px 0 0
 }
 .div3-1 {    
-    padding: 24px 0 0 0;
+    padding: 7px 0 0 0;
 }
 .divlink2 {
 font-size: 20px;
@@ -348,7 +348,16 @@ width: 645px;
     margin: 20px 0 0 0;
     border-radius: 7px;
 }
+.related a:hover{
+    text-decoration: underline;
+}
+.related0 a:hover{
+    text-decoration: underline;
+}
 
+.endlistdiv a:hover{
+    text-decoration: underline;
+}
 .related0 {
     height: 190px;
     border: 1px solid lightgray;
@@ -396,10 +405,10 @@ width: 645px;
 }
 
 .enddiv{
-
+margin: 30px 0 20px 0;
 }
 .endp{
-
+font-size: 22px;
 }
 .endlistdiv{
 
@@ -411,7 +420,54 @@ width: 645px;
 .endlist1{
     width: 237px;
     height: 16px;
+    margin: 10px 0 0 0px;
+    font-size: 15px;
+}
 }
 .endlink{
 
+}
+
+strong {
+    font-weight: bold;
+}
+
+.long{
+
+}
+.endimg{
+    position: relative;
+    height: 47px;
+    left: 149px;
+}
+
+.enddiv2{
+    display: flex;
+}
+
+.endlist2{
+    position: relative;
+    display: flex;
+    left: 185px;
+    bottom: 36px;
+}
+
+
+.endlist3{
+    width: 20px;
+}
+.endlink2{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 50px;
+    width: 21px;
+}
+
+.endlink2:hover {
+    text-decoration: underline;
+}
+.next{
+    position: relative;
+    left: 43px;
+    width: 38px;
 }
